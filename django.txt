@@ -1,3 +1,7 @@
+###############extendtion###########
+jinja
+
+
 ################git ignore##################
 
 # Created by https://www.gitignore.io/api/django
