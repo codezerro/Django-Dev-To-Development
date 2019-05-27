@@ -1,3 +1,21 @@
+1. request.path
+2.python manage.py sqlmigrate app_name 0001
+3.django.contrib.humanize[ {load humanzie} ]
+4.Listing.objects.order_by('-list_date')
+5.Listing.objects.order_by('-list_date').filter(item)
+6.listings = Listing.objects.order_by('-list_date').filter(is_published=True)[:3]
+7.{{ listing.photo_main.url }}
+8.(tablerow__icontains=keywords)
+9.(tablerow__iextact=keywords)
+10.(tablerow__lte=keywords)
+11.django.contrib.auth.models import user(default user model)
+
+
+
+
+
+
+
 ###############extendtion###########
 jinja
 

@@ -5,6 +5,6 @@ from pages.views import (
 )
 
 urlpatterns = [
-    path('',index),
-    path('about/',about)
+    path('', index,name='index'),
+    path('about/', about,name='about'),
 ]
